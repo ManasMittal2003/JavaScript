@@ -17,3 +17,9 @@ location and sends back the particular HTML file for rendering and then browser
 parses that HTML file and as it will find more references like index.js in our case
 it will tell browser to request these reference files from the live server
 and when the browser will have all the files with it, it will create a DOM model -->
+
+<!-- if we use <script src="index.js" defer></script>  "defer" attribute in script tag 
+ then request for index.js file will be made by the browser but not rendered 
+ firstly complete HTML file will be rendered then index.js file will be rendered
+ but without using defer keyword the execution of index.html file will stop
+ and it will load index.js file completely.-->
