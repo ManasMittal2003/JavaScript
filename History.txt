@@ -1,0 +1,21 @@
+In early days when the websites used to be only static, any computaion which needs
+to be done is done on the server. Example: if a website contains a calculator then it
+needs to send request to the server there on the server that computation will be done
+and then the server will respond with a new HTML page containing the result, this
+process required a lot of time because of less internet connectivity at that time.
+
+So, the founder of NETSCAPE browser gone to Brendon Eich and told to create a programming
+language that can run on browsers and do these type of works on users machine to avoid
+server calls.
+
+Brendon Eich created JS in 10 days. Basically, it runs because of an engine in browser 
+which executes the javascript codes.
+
+Firstly JS was named as "Mocha" and then "LiveScript" and then finally it named as
+"JavaScript".
+
+Then later on when chrome was introduced it came with its own engine to run JS on browser
+known as "V8 engine" which is more fast and optimised than other engines.
+
+Later on "Ryan Dahl" took out the V8 engine from browser and setup a separate environment
+which he named as "Nodejs" due to which JS became available to run on server side as well.
