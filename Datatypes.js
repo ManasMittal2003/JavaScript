@@ -20,7 +20,7 @@ console.log(typeof(7));
 console.log(typeof("Manas"));
 console.log(typeof(5n)); //For representing number in bigint append n at the last of number
 
-//strings sjould be written inside single quote or double qoutes
+//strings should be written inside single quote or double qoutes
 
 //single qoutes and double quotes string does not support new line strings 
 
