@@ -1,0 +1,35 @@
+A programming language is said to have First-class functions when functions 
+in that language are treated like any other variable. For example, in such a language, a function 
+can be passed as an argument to other functions, can be returned 
+by another function and can be assigned as a value to a variable.
+
+Assigning Function to a variable :
+
+    const foo = () => {
+    console.log("foobar");
+    };
+    foo(); // Invoke it using the variable
+
+Passing Function as an arguement :
+
+    function greet(sayhello, name){
+        console.log(sayhello(), name);
+    }
+    function hellomsg(){
+        return "Hello";
+    }
+    greet(hellomsg,"Manas");
+
+When a function is passed to another function then the function passed is jnown as a Callback
+function here in the above example hellomsg is a callback function
+
+Returning a function :
+
+    function sayHello() {
+    return () => {
+        console.log("Hello!");
+    };
+    }
+
+Note: The functions which return a function or takes an function as arguement are known as
+higher - order functions
